@@ -1,5 +1,7 @@
 mod lexer;
 
 fn main() {
-    println!("Hello, world!");
+    let a: &str = "abc";
+    let a = a.chars();
+    println!("{:?}", a);
 }
